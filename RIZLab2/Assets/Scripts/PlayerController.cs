@@ -9,7 +9,6 @@ public class PlayerController : MonoBehaviour
     public float sensitivity = 1f;
     public Transform cameraTransform;
     public Rigidbody rb;
-
     public Transform groundcheck;
     public LayerMask groundLayer;
     private bool _isOnFloor = true;
